@@ -41,6 +41,7 @@ CREATE TABLE `masyarakat` (
 --
 
 INSERT INTO `masyarakat` (`nik`, `nama`, `username`, `password`, `telp`) VALUES
+(12345678, 'Masyarakat Memver', 'memver', '123', '081234567890'),
 (8781921, 'jonoeverybody', 'jonsky', '123', '08767121234'),
 (9979132, 'alip', 'alipudin', '123', '908913210'),
 (81388813, 'Muhammad Reza Aditya', 'rejakartans', '123', '085772867820'),
@@ -100,7 +101,8 @@ INSERT INTO `petugas` (`id_petugas`, `nama_petugas`, `username`, `password`, `te
 (2, 'rizki akbar', 'qibar', '123', '0879761221', 'petugas'),
 (3, 'taufan', 'opan', '123', '988781221', 'petugas'),
 (5, 'ferdy yosiii', 'ijat', '123', '897801211', 'petugas'),
-(6, 'admin', 'admin', 'admin', '9870971312', 'admin');
+(6, 'admin', 'admin', 'admin', '9870971312', 'admin'),
+(7, 'Petugas Memver', 'memver', '123', '081234567891', 'petugas');
 
 -- --------------------------------------------------------
 
