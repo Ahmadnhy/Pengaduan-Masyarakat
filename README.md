@@ -4,7 +4,7 @@ Selamat datang di **WPM (Web Pengaduan Masyarakat)**, portal modern untuk menyam
 
 🔗 **Repository**: [github repository](https://github.com/Ahmadnhy/Pengaduan-Masyarakat)
 
-# key fitures
+# 🌟 Key Features
 
 1. **Desain Visual Eksklusif (Glassmorphic):** Sentuhan modern pada kartu input dan sidebar navigasi menggunakan Google Fonts (Plus Jakarta Sans & Inter).
 2. **Hitungan Statistik Real-time (SQL COUNT):** Menampilkan jumlah laporan masuk, diproses, dan selesai secara live langsung dari database MySQL.
@@ -12,14 +12,14 @@ Selamat datang di **WPM (Web Pengaduan Masyarakat)**, portal modern untuk menyam
 4. **Riwayat Pengaduan Mandiri:** Warga dapat memantau perkembangan status aduannya dan melihat tanggapan resmi dari petugas secara langsung.
 5. **Panel Admin & Petugas:** Modul pengelolaan data petugas, proses verifikasi status laporan, serta grafik tren pengaduan (Line Chart & Doughnut Chart).
 
-# tech stak
+# 🛠️ Tech Stack
 
 - **Backend:** PHP Native (7.4 ke atas)
 - **Database:** MySQL
 - **Frontend:** Bootstrap 4 & 5 Utilities, FontAwesome 5, Chart.js, Animate.css, Google Fonts (Plus Jakarta Sans & Inter)
 - **Styling:** CSS3 Custom Glassmorphism & Custom Gradients
 
-# project structure
+# 📂 Project Structure
 
 ```text
 Pengaduan-Masyarakat/
@@ -35,7 +35,7 @@ Pengaduan-Masyarakat/
 └── laporan.sql              # Skema Basis Data MySQL
 ```
 
-# getting started
+# 🚀 Getting Started
 
 Untuk dapat menjalankan aplikasi ini di komputer lokal Anda, silakan ikuti petunjuk langkah-langkah di bawah ini.
 
@@ -60,7 +60,7 @@ Untuk dapat menjalankan aplikasi ini di komputer lokal Anda, silakan ikuti petun
      ```
      Lalu buka `http://localhost:8080` di browser Anda.
 
-## Informasi Akun Login Demo
+## 🔑 Informasi Akun Login Demo
 
 Berikut adalah daftar akun demo bawaan database yang dapat Anda gunakan:
 
@@ -74,7 +74,7 @@ Berikut adalah daftar akun demo bawaan database yang dapat Anda gunakan:
   - Username: `admin`
   - Password: `admin`
 
-# dataabse schema
+# 📜 Database Schema
 
 Sistem ini didukung oleh 4 tabel utama:
 
@@ -83,7 +83,7 @@ Sistem ini didukung oleh 4 tabel utama:
 3. **`petugas`**: Data akun staf internal (`id_petugas` primary key, `nama_petugas`, `username`, `password`, `telp`, `level` enum: 'admin', 'petugas').
 4. **`tanggapan`**: Data tanggapan resmi yang diberikan (`id_tanggapan` primary key, `id_pengaduan` foreign key, `tgl_tanggapan`, `tanggapan` teks, `id_petugas` foreign key).
 
-## 🤝 Contributing
+## 🤝🏼 Contributing
 
 Contributions are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
 
