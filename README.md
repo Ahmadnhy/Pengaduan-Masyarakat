@@ -1,6 +1,6 @@
 # Sistem pengaduan masyarakat berbasis website
 
-Selamat datang di **WPM (Web Pengaduan Masyarakat)**, portal modern untuk menyampaikan aspirasi, keluhan, dan laporan pelayanan publik atau fasilitas umum secara cepat, transparan, dan aman. Proyek ini direvitalisasi secara total menjadi web app premium dengan desain modern (Glassmorphism, gradien dinamis, bayangan halus, mikro-animasi) dan dioptimalkan agar responsif 100% pada semua perangkat.
+Sistem Pengaduan Masyarakat Berbasis Website merupakan platform digital yang dirancang untuk memfasilitasi masyarakat dalam menyampaikan keluhan, aspirasi, maupun laporan terkait pelayanan dan permasalahan publik. Sistem ini memungkinkan pengguna mengirimkan pengaduan secara online dengan melampirkan bukti kondisi di lapangan berupa foto atau dokumen pendukung. Selain itu, sistem menyediakan fitur pelacakan status laporan, pengelolaan pengaduan oleh petugas, serta penyampaian tindak lanjut secara transparan dan terintegrasi guna meningkatkan kualitas pelayanan kepada masyarakat.
 
 🔗 **Repository**: [github repository](https://github.com/Ahmadnhy/Pengaduan-Masyarakat)
 
