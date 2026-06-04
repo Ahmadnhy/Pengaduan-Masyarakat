@@ -95,11 +95,14 @@ if (isset($_POST["submit"])) {
             <!-- Right Column: Image Preview -->
             <div class="col-lg-5 text-center mt-4 mt-lg-0 d-flex flex-column align-items-center justify-content-center border-left pl-lg-5">
               <span class="font-weight-bold text-secondary small mb-3">Foto Bukti Lampiran</span>
-              <div class="img-preview-container shadow-sm p-2 bg-white rounded border mb-3" style="max-width: 100%;">
+              <div class="img-preview-container shadow-sm p-2 bg-white rounded border mb-3" style="max-width: 100%; width: 100%;">
                 <?php if (!empty($row['foto'])) : ?>
                   <img src="<?= ASSET_PATH; ?>img/<?= $row['foto']; ?>" class="img-fluid rounded" style="max-height: 250px; object-fit: contain;" alt="Lampiran Bukti">
                 <?php else : ?>
-                  <img src="<?= ASSET_PATH; ?>img/investigate.png" class="img-fluid rounded" style="max-height: 250px; object-fit: contain;" alt="No Attachment">
+                  <div class="d-flex flex-column align-items-center justify-content-center bg-light rounded py-5 px-3" style="width: 250px; border: 2px dashed #dee2e6; margin: 0 auto;">
+                    <i class="fas fa-image text-muted mb-2" style="font-size: 2.5rem;"></i>
+                    <span class="text-secondary small font-weight-bold">Tidak Ada Foto Bukti</span>
+                  </div>
                 <?php endif; ?>
               </div>
             </div>

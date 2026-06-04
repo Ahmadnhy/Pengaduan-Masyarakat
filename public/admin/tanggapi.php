@@ -61,7 +61,6 @@ if (isset($_POST["submit"])) {
       <div class="row">
         <!-- Left Column: Illustration & Image Attachment -->
         <div class="col-lg-5 text-center mb-4 mb-lg-0 border-right pr-lg-5 d-flex flex-column align-items-center justify-content-center">
-          <img src="<?= ASSET_PATH; ?>img/chubbs-9.png" class="img-fluid mb-4" style="max-height: 200px;" alt="Tanggapi Aduan">
           
           <div class="w-100 mt-2">
             <span class="font-weight-bold text-secondary small d-block mb-2">Foto Bukti Terlampir</span>

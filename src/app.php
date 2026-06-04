@@ -34,7 +34,7 @@ function upload()
     $error = $_FILES['foto']['error'];
     $tmpName = $_FILES['foto']['tmp_name'];
 
-    $ekstensiValid = ['jpg', 'jpeg', 'png', 'gif', 'svg'];
+    $ekstensiValid = ['jpg', 'jpeg', 'png', 'gif'];
     $ekstensi = explode('.', $namaFile);
     $ekstensi = strtolower(end($ekstensi));
     if (!in_array($ekstensi, $ekstensiValid)) {

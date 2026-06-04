@@ -41,11 +41,8 @@ if (isset($_POST["submit"])) {
 
   <div class="card shadow-sm border-0 animate-fade-in-up mt-4">
     <div class="card-body p-5">
-      <div class="row align-items-center">
-        <div class="col-lg-5 text-center mb-4 mb-lg-0">
-          <img src="<?= ASSET_PATH; ?>img/officer.png" class="img-fluid" style="max-height: 280px;" alt="Tambah Petugas">
-        </div>
-        <div class="col-lg-7">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
           <form action="" method="POST">
             <div class="form-group mb-3">
               <label for="nama_petugas" class="font-weight-bold text-secondary small">Nama Lengkap Petugas</label>

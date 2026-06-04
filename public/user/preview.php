@@ -57,11 +57,14 @@ $result = mysqli_query($conn, $query);
             <div class="row my-4 align-items-center">
               <div class="col-md-5 text-center mb-4 mb-md-0">
                 <span class="font-weight-bold text-secondary small d-block mb-2">Lampiran Bukti Foto</span>
-                <div class="img-preview-container p-2 bg-white rounded border d-inline-block shadow-sm" style="max-width: 100%;">
+                <div class="img-preview-container p-2 bg-white rounded border d-inline-block shadow-sm" style="max-width: 100%; width: 100%;">
                   <?php if (!empty($row['foto'])) : ?>
                     <img src="<?= ASSET_PATH; ?>img/<?= $row['foto']; ?>" class="img-fluid rounded" style="max-height: 180px; object-fit: contain;" alt="Lampiran Bukti">
                   <?php else : ?>
-                    <img src="<?= ASSET_PATH; ?>img/investigate.png" class="img-fluid rounded" style="max-height: 180px; object-fit: contain;" alt="Default Bukti">
+                    <div class="d-flex flex-column align-items-center justify-content-center bg-light rounded py-4 px-3" style="border: 2px dashed #dee2e6; min-height: 150px;">
+                      <i class="fas fa-image text-muted mb-2" style="font-size: 2rem;"></i>
+                      <span class="text-secondary small font-weight-bold">Tidak Ada Foto Bukti</span>
+                    </div>
                   <?php endif; ?>
                 </div>
               </div>

@@ -962,9 +962,9 @@ section {
 /* Premium Sticky Sidebar */
 #wrapper #accordionSidebar,
 #wrapper .sidebar {
-  position: sticky !important;
-  top: 0 !important;
-  height: 100vh !important;
+  position: relative !important;
+  min-height: 100vh !important;
+  height: auto !important;
   z-index: 1020 !important;
   overflow-y: auto !important;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;

@@ -54,12 +54,8 @@ if (isset($_POST["submit"])) {
         </div>
       <?php endif; ?>
 
-      <div class="row align-items-center">
-        <div class="col-lg-5 text-center mb-4 mb-lg-0">
-          <img src="<?= ASSET_PATH; ?>img/investigate.png" class="img-fluid" style="max-height: 280px;" alt="Buat Laporan">
-        </div>
-        
-        <div class="col-lg-7">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
           <form action="" method="POST" enctype="multipart/form-data">
             <div class="row">
               <div class="col-md-6 mb-3">
@@ -75,7 +71,7 @@ if (isset($_POST["submit"])) {
             <div class="form-group mb-3">
               <label for="foto" class="font-weight-bold text-secondary small">Lampiran Foto Bukti</label>
               <input type="file" class="form-control-file form-control py-2 shadow-sm" id="foto" name="foto" required>
-              <small class="text-muted">Pilih foto/gambar bukti laporan (.jpg, .png, .svg)</small>
+              <small class="text-muted">Pilih foto/gambar bukti laporan (.jpg, .png)</small>
             </div>
 
             <div class="form-group mb-4">

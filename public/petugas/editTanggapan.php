@@ -58,7 +58,7 @@ if (isset($_POST["submit"])) {
       <div class="row">
         <!-- Left Column: Illustration -->
         <div class="col-lg-5 text-center mb-4 mb-lg-0 border-right pr-lg-5 d-flex flex-column align-items-center justify-content-center">
-          <img src="<?= ASSET_PATH; ?>img/chubbs-9.png" class="img-fluid mb-4" style="max-height: 200px;" alt="Tanggapan">
+          <i class="fas fa-reply-all text-primary mb-4" style="font-size: 3.5rem;"></i>
           <h5 class="text-primary font-weight-bold">Perbarui Respon</h5>
           <p class="text-secondary small text-center px-3">Pastikan tanggapan yang diubah tetap sopan, jelas, dan memberikan solusi yang terbaik.</p>
         </div>

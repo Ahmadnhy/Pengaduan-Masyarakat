@@ -97,7 +97,10 @@ if (isset($_POST['submit'])) {
                 <?php if (!empty($row['foto'])) : ?>
                   <img src="<?= ASSET_PATH; ?>img/<?= $row['foto']; ?>" class="img-fluid rounded" style="max-height: 250px; object-fit: contain;" alt="Lampiran Bukti">
                 <?php else : ?>
-                  <img src="<?= ASSET_PATH; ?>img/investigate.png" class="img-fluid rounded" style="max-height: 250px; object-fit: contain;" alt="No Attachment">
+                  <div class="d-flex flex-column align-items-center justify-content-center bg-light rounded py-5 px-3" style="width: 250px; border: 2px dashed #dee2e6; margin: 0 auto;">
+                    <i class="fas fa-image text-muted mb-2" style="font-size: 2.5rem;"></i>
+                    <span class="text-secondary small font-weight-bold">Tidak Ada Foto Bukti</span>
+                  </div>
                 <?php endif; ?>
               </div>
               <span class="badge badge-pill badge-warning px-3 py-2 text-uppercase"><i class="fas fa-clock mr-1"></i> Menunggu Verifikasi</span>

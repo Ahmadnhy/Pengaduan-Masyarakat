@@ -70,12 +70,12 @@ CREATE TABLE `pengaduan` (
 INSERT INTO `pengaduan` (`id_pengaduan`, `tgl_pengaduan`, `nik`, `isi_laporan`, `foto`, `status`) VALUES
 (3, '2021-01-20', 81239821, 'nyobaa ngelaporr', 'hc.jpg', 'selesai'),
 (4, '2021-01-21', 89128331, 'nyoba ngelapor lagi boosss', 'suntuk.jpg', 'proses'),
-(5, '2021-01-21', 87671329, 'laporan baruuuuu', 'login.svg', 'selesai'),
-(6, '2021-01-21', 9878121, 'ngelaporr lagii nih boss', 'img-buat-laporan.svg', 'selesai'),
-(7, '2021-01-22', 9878113, 'hallo saya mao curhat dongg tapii... boongg', 'img-dashboard-user.svg', 'selesai'),
-(8, '2021-01-21', 98971831, 'laporr 86!', 'tanggapan.svg', 'selesai'),
-(9, '2021-01-21', 98781321, 'laporr lagii nihh bosss', 'error-404-monochrome.svg', 'selesai'),
-(10, '2021-01-23', 98090191, 'percobaan laporan terakhir', 'santay.svg', 'selesai');
+(5, '2021-01-21', 87671329, 'laporan baruuuuu', 'login.jpg', 'selesai'),
+(6, '2021-01-21', 9878121, 'ngelaporr lagii nih boss', 'userdsh.png', 'selesai'),
+(7, '2021-01-22', 9878113, 'hallo saya mao curhat dongg tapii... boongg', 'userdsh.png', 'selesai'),
+(8, '2021-01-21', 98971831, 'laporr 86!', 'login.jpg', 'selesai'),
+(9, '2021-01-21', 98781321, 'laporr lagii nihh bosss', 'userdsh.png', 'selesai'),
+(10, '2021-01-23', 98090191, 'percobaan laporan terakhir', 'login.jpg', 'selesai');
 
 -- --------------------------------------------------------
 

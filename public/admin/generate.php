@@ -32,7 +32,7 @@ $result = mysqli_query($conn, $query);
 <div class="row animate-fade-in-up">
   <?php if (mysqli_num_rows($result) === 0) : ?>
     <div class="col-12 text-center py-5">
-      <img src="<?= ASSET_PATH; ?>img/investigate.png" class="img-fluid mb-3" style="max-height: 200px;" alt="Data Kosong">
+      <i class="fas fa-folder-open text-muted mb-3" style="font-size: 4rem;"></i>
       <h5 class="text-secondary">Belum ada laporan yang ditanggapi.</h5>
     </div>
   <?php endif; ?>
@@ -56,7 +56,10 @@ $result = mysqli_query($conn, $query);
                 <?php if (!empty($row['foto'])) : ?>
                   <img src="<?= ASSET_PATH; ?>img/<?= $row['foto']; ?>" class="img-fluid rounded" style="height: 80px; width: 100%; object-fit: cover;" alt="Bukti Foto">
                 <?php else : ?>
-                  <img src="<?= ASSET_PATH; ?>img/investigate.png" class="img-fluid rounded" style="height: 80px; width: 100%; object-fit: cover;" alt="Default Foto">
+                  <div class="d-flex flex-column align-items-center justify-content-center bg-light rounded" style="height: 80px; width: 100%; border: 1px dashed #dee2e6;">
+                    <i class="fas fa-image text-muted mb-1" style="font-size: 1.2rem;"></i>
+                    <span class="text-secondary" style="font-size: 0.65rem;">Tanpa Foto</span>
+                  </div>
                 <?php endif; ?>
               </div>
             </div>

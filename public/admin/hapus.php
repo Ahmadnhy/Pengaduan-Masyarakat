@@ -30,7 +30,7 @@ if (deletePetugas($id) > 0) {
         <div class="card shadow-sm border-0 p-5 animate-fade-in-up" style="border-radius: 1.5rem;">
           <div class="card-body">
             <div class="mb-4">
-              <img src="<?= ASSET_PATH; ?>img/sukses.png" class="img-fluid mb-4" style="max-height: 180px;" alt="Sukses Hapus" data-aos="zoom-in" data-aos-duration="700">
+              <i class="fas fa-check-circle text-success fa-5x mb-4" data-aos="zoom-in" data-aos-duration="700"></i>
             </div>
             <h3 class="font-weight-bold text-dark mb-2">Petugas Berhasil Dihapus</h3>
             <p class="text-secondary small mb-4">Akun petugas telah dihapus secara permanen dari sistem database.</p>
